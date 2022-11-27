@@ -103,6 +103,6 @@ ASES500 =[
     }, "Engineering", "Systems Engineering", 3.89, "Welfare", "Incharge of any leisure, fun, and sporting activities in the department."),
 ]
 for scholar in ASES200:
-    print(f"Student name: {scholar.name()} || Faculty: {scholar.faculty()} || Department: {scholar.department()} || Matric Number: {scholar.matric()} || Averge Score: {scholar.average()} || CGPA: {scholar.cgpa()} || Ranking: {scholar.ranking()} Honors")
+    print(f"Student name: {scholar.name()} || Faculty: {scholar.faculty()} || Department: {scholar.department()} || Matric Number: {scholar.matric()} || Average Score: {scholar.average()} || CGPA: {scholar.cgpa()} || Ranking: {scholar.ranking()} Honors")
 for official in ASES500:
-    print(f"Student name: {official.name()} || Faculty: {official.faculty()} || Department: {official.department()} || Matric Number: {official.matric()} || Averge Score: {official.average()} || CGPA: {official.cgpa()} || Ranking: {official.ranking()} Honors || is a student official. Title: {official.title()} || Role: {official.role()}")
+    print(f"Student name: {official.name()} || Faculty: {official.faculty()} || Department: {official.department()} || Matric Number: {official.matric()} || Average Score: {official.average()} || CGPA: {official.cgpa()} || Ranking: {official.ranking()} Honors || is a student official. Title: {official.title()} || Role: {official.role()}")
