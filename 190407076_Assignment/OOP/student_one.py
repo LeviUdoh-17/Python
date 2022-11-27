@@ -58,7 +58,7 @@ ASES100 = [
         })
 ]
 for scholar in ASES100:
-    print(f"Student name: {scholar.name()} || Matric Number: {scholar.matric()} || Averge Score: {scholar.average()}")
+    print(f"Student name: {scholar.name()} || Matric Number: {scholar.matric()} || Average Score: {scholar.average()}")
 
 ASES200 = [
     Student200("Levi Udoh", 190407076, {
@@ -88,4 +88,4 @@ ASES200 = [
 ]
 
 for scholar in ASES200:
-    print(f"Student name: {scholar.name()} || Matric Number: {scholar.matric()} || Averge Score: {scholar.average()} || CGPA: {scholar.cgpa()} || Ranking: {scholar.ranking()} Honors")
+    print(f"Student name: {scholar.name()} || Matric Number: {scholar.matric()} || Average Score: {scholar.average()} || CGPA: {scholar.cgpa()} || Ranking: {scholar.ranking()} Honors")

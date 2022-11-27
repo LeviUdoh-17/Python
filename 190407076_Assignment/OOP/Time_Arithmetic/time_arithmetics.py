@@ -55,7 +55,7 @@ class Time_Conversion(Time):
         return f"Total seconds: {(self._days*24*60*60) + (self._hours*60*60) + (self._minutes*60) + self._seconds} seconds"
     def toMinutes(self):
         """Returns time in minutes"""
-        return f"Total minutes: {(self._days*24*60) + (self._minutes*60) + self._minutes + (round((self._seconds/60), ndigits=2))} minutes"
+        return f"Total minutes: {(self._days*24*60) + (self._hours*60) + self._minutes + (round((self._seconds/60), ndigits=2))} minutes"
     def toHours(self):
         """Returns time in hours"""
         return f"Total hours: {(self._days*24) + self._hours + round((self._minutes/60), ndigits=2) + round((self._seconds/(60*60)), ndigits=2)} hours"
