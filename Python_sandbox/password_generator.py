@@ -31,4 +31,3 @@ for elements in character_distribution:
                 random_special_characters += random.choice(special_characters)
         password += random_special_characters
 print(password)
-    
