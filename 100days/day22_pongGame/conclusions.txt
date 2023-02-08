@@ -1,0 +1,7 @@
+1. There is a board with some size, obviously a rectangle
+2. There are dotted lines to show the net at the middle of the board
+3. There are two bats, one is user controlled while the other is comp controlled
+4. There is a ball, take care of the movement physics(180 - angle), 
+                    the ball's collision with the wall should also be taken into consideration
+5. There is a score board
+6. Gameover when the ball passed the bats
