@@ -1,0 +1,10 @@
+{
+	"autodeskProduct":	"Fusion360",
+	"type":	"script",
+	"author":	"Olodo Rabata",
+	"description":	{
+		"":	"My first Script"
+	},
+	"supportedOS":	"windows",
+	"editEnabled":	true
+}

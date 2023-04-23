@@ -1,0 +1,10 @@
+{
+	"autodeskProduct":	"Fusion360",
+	"type":	"script",
+	"author":	"Prof Fak",
+	"description":	{
+		"":	"First cooling assignment"
+	},
+	"supportedOS":	"windows|mac",
+	"editEnabled":	true
+}
